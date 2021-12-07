@@ -1,0 +1,62 @@
+/* Style the links inside the sidenav */
+#mySidenav span {
+  position: fixed; /* Position them relative to the browser window */
+  left: -40px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 80px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  /*transform: rotate(-90deg);*/
+  text-align: end;
+  z-index: 1;
+}
+
+#mySidenav span:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The links: 20px from the top, with the NHS default colours   */
+
+#option1 {
+  top: 80px;
+  background-color: #005eb8;
+}
+
+#option2 {
+  top: 140px;
+  background-color: #41b6e6;
+}
+
+#option3 {
+  top: 200px;
+  background-color: #00a9ce;
+}
+#option4 {
+  top: 260px;
+  background-color: #00a499;
+}
+#option5 {
+  top: 320px;
+  background-color: #92c020;
+}
+#option6 {
+  top: 380px;
+  background-color: #475c6d;
+}
+#option7 {
+  top: 440px;
+  background-color: #231f20;
+}
+#option8 {
+  top: 500px;
+  background-color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  #mySidenav span {
+    left: -70px;
+  }
+}
