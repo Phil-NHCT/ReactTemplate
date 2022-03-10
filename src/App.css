@@ -1,3 +1,13 @@
-.App {
-  text-align: center;
+/* Trust Colours */
+/* More NHS Colours - https://www.england.nhs.uk/nhsidentity/identity-guidelines/colours/ */
+
+:root {
+  --NHS-Blue: #005eb8;
+  --NHS-Light-Blue: #41b6e6;
+  --NHS-Aqua-Blue: #00a9ce;
+  --NHS-Aqua-Green: #00a499;
+  --NHS-Light-Green: #92c020;
+  --NHS-White: #ffffff;
+  --NHS-Dark-Grey: #475c6d;
+  --NHS-Black: #231f20;
 }

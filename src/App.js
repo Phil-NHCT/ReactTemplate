@@ -1,8 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 import Header from "./display/Header";
 import Footer from "./display/Footer";
 import SideNav from "./display/SideNav";
 import NavMenubar from "./display/NavMenubar";
+import UserDisplay from "./components/UserDisplay";
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <Header title="Template" />
       <NavMenubar />
       <SideNav />
+      <UserDisplay />
       <Footer />
     </div>
   );

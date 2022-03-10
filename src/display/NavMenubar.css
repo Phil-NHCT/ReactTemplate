@@ -1,3 +1,6 @@
 .NavBar {
-  background-color: #475c6d;
+  background-color: var(--NHS-Dark-Grey);
+}
+.NavBar > a {
+  color: var(--NHS-White) !important;
 }

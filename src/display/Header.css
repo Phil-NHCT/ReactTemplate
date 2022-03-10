@@ -1,7 +1,6 @@
-/* Header table settings */
 .header {
   /*background-color: #004b8b;*/
-  background-color: #005eb8;
+  background-color: var(--NHS-Blue);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
